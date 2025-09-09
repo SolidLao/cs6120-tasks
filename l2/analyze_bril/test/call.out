@@ -1,0 +1,9 @@
+Instruction Distribution Analysis
+========================================
+Total instructions: 6
+----------------------------------------
+const        |    2 |  33.33%
+add          |    1 |  16.67%
+call         |    1 |  16.67%
+print        |    1 |  16.67%
+ret          |    1 |  16.67%

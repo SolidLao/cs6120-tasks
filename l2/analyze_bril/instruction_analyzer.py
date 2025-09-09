@@ -41,7 +41,7 @@ def print_instruction_distribution(counter, total_instructions):
 def main():
     if len(sys.argv) != 2:
         print("Usage: python instruction_analyzer.py <bril_json_file>", file=sys.stderr)
-        print("Example: python instruction_analyzer.py add.json", file=sys.stderr)
+        print("Example: python instruction_analyzer.py test/add.json", file=sys.stderr)
         sys.exit(1)
     
     json_file = sys.argv[1]
@@ -64,6 +64,7 @@ def main():
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

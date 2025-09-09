@@ -1,0 +1,7 @@
+Instruction Distribution Analysis
+========================================
+Total instructions: 4
+----------------------------------------
+const        |    2 |  50.00%
+add          |    1 |  25.00%
+print        |    1 |  25.00%

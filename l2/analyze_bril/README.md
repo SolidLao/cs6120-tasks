@@ -26,7 +26,7 @@ python instruction_analyzer.py <bril_json_file>
 
 ## Example
 ```bash
-python instruction_analyzer.py add.json
+python instruction_analyzer.py test/add.json
 ```
 
 ### Sample Output
