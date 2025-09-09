@@ -1,0 +1,11 @@
+Basic Blocks:
+========================================
+
+Block 'b1':
+  five = const 5
+  sum = add n five
+  ret sum
+
+Control Flow Graph (add5):
+========================================
+b1 -> exit

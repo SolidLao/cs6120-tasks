@@ -1,0 +1,20 @@
+Basic Blocks:
+========================================
+
+Block 'b1':
+  v = const 4
+  jmp somewhere
+
+Block 'b2':
+  v = const 2
+  jmp somewhere
+
+Block 'somewhere':
+  print v
+  ret
+
+Control Flow Graph (main):
+========================================
+b1 -> somewhere
+b2 -> somewhere
+somewhere -> exit
